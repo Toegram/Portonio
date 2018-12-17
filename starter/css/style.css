@@ -20,16 +20,38 @@ color-light-grey: #e6ffff
  body {
   font-family: 'Lobster', cursive;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 30px;
   line-height: 1.7;
   color: #eee;
+  padding: 20px;
 }
 
 .header {
-  height: 95vh;
-  width: 95vh;
-  background-image: url(../img/portonio1.jpg);
+  position: relative;
+  height: 45vh;
+  background-image: linear-gradient(to right,
+    rgba(0,223,252,.5),
+    rgba(0,95,107,.5)),
+    url(../img/portonio1.jpg);
   background-size: cover;
   background-position: top;
-  width: 100%;
+  /* clip-path: polygon(0 0, 100% 0, 100% 60%, 0 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 100%, 0 100%);
+  box-shadow: 10px -10px 3px rgba(0,0,0, .5);
 }
+
+.header__logo-box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.logo {
+  height: 150px;
+  width: auto;
+}
+
+/* .header__text {
+  padding-top: 10px;
+  padding-left: 30px;
+} */
