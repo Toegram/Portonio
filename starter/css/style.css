@@ -1,0 +1,35 @@
+
+/* COLORS:
+
+color-primary: #008c9e
+color-primary-light: #00dffc
+color-primary-dark: #005f6b
+color-dark-grey: #343838
+color-light-grey: #e6ffff
+
+*/
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  font-family: 'Lobster', cursive;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #eee;
+}
+
+.header {
+  height: 95vh;
+  width: 95vh;
+  background-image: url(../img/portonio1.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+}
